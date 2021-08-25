@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/cookbook', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect('mongodb://localhost/cookbook', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 
-db.on('error', () => {
+db.on('error', (error) => {
   console.log('Mongoose connection error:', error.stack);
 })
 

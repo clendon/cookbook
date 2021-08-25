@@ -1,8 +1,15 @@
 import React from 'react';
+import Header from './Header.jsx';
+import RecipeListView from './RecipeListView.jsx';
+import RecipeView from './RecipeView.jsx';
 
 const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <div className='app'>
+      <Header />
+      <RecipeListView />
+      <RecipeView />
+    </div>
   )
 };
 

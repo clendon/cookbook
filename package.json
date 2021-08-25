@@ -1,11 +1,11 @@
 {
-  "name": "my-cookbook",
+  "name": "my-recipes",
   "version": "1.0.0",
   "description": "A place to store, edit, and view your favorite recipes!",
   "main": "server/index.js",
   "scripts": {
     "build": "webpack --watch",
-    "start": "nodemon server",
+    "start": "nodemon server -e js,jsx,mjs,json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
