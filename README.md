@@ -1,9 +1,11 @@
-- [Overview](#Cookbook)
+# Cookbook
+- [Overview](#Description)
 - [Install](#Installation)
 - [Usage](#Usage)
 - [Contribute](#Contributing)
 
-# Cookbook
+## Description
+> This app is a work in progress. More features will be added over time.
 
 This app is a personal recipe book.
 
